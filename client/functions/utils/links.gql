@@ -1,9 +1,10 @@
-type Todo {
+type Link {
+    url: String!
     name: String!
     description: String!
     archived: Boolean
 }
 
 type Query {
-    allTodos: [Todo!]!
+    allLinks: [Link!]!
 }
