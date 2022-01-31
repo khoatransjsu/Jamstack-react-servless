@@ -1,5 +1,4 @@
 const GET_LINKS = `
-# Write your query or mutation here
 query{
   allLinks{
     data {
